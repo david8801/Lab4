@@ -30,11 +30,11 @@ private:
     int amount;
     string color;
     int energy;
-    string prod;
+    string producer;
 
 protected:
     string quality;
-    int users;
+    int usersQuantity;
 };
 
 #endif //C_LAB_JUICER_H
