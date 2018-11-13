@@ -16,10 +16,10 @@ juicer::juicer(int p,int w):
 juicer::juicer(string q, int u):
         quality(q),users(u)
 {
-    cout << "The quality is " <<  quality << endl << "There are " << users << " Users" << endl;
+    cout << "The quality is " <<  quality << endl << "There are " << usersQuantity << " Users" << endl;
 }
 juicer::juicer(int am,string c,int e,string pr):
-        amount(am),color(c),energy(e),prod(pr)
+        amount(am),color(c),energy(e),producer(pr)
 {
     cout << "An amount of available juicers equals " << amount << endl << "the color is "<< color << endl << "An energy usage equals " <<energy << "watt"<< endl <<"The producer is "<< prod << endl;
 }
